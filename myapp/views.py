@@ -13,7 +13,7 @@ def main(request):
         model.subject = request.POST.get('subject', '')
         model.exist = request.POST.get('exist', '')
         model.save()
-        print(request.POST)
+
     return render(request,'index.html')
 
 

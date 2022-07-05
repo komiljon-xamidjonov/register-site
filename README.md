@@ -1,2 +1,3 @@
 # register-site
-Register project with django
+Register project with django 
+custom designed form
